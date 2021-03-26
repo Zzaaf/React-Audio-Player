@@ -1,0 +1,32 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  width: 40%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.check {
+  display: flex;
+}
+
+.btn {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  padding: 0 15px 0;
+}
+
+i {
+  color: #4a4a4a;
+}
